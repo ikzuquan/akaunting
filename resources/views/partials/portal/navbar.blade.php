@@ -75,24 +75,7 @@
                     </div>
                 </li>
 
-                @can('read-install-updates')
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('updates.index') }}" title="{{ $updates }} Updates Available" role="button" aria-haspopup="true" aria-expanded="false">
-                            <span>
-                                <i class="fa fa-sync-alt"></i>
-                            </span>
-                            @if ($updates)
-                                <span class="badge badge-md badge-circle badge-update badge-warning">{{ $updates }}</span>
-                            @endif
-                        </a>
-                    </li>
-                @endcan
 
-                <li class="nav-item d-none d-md-block">
-                    <a class="nav-link" href="{{ url(trans('header.support_link')) }}" target="_blank" title="{{ trans('general.help') }}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="far fa-life-ring"></i>
-                    </a>
-                </li>
             </ul>
 
             <ul class="navbar-nav align-items-center ml-auto ml-md-0">

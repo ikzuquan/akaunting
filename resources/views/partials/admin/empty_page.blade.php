@@ -6,7 +6,7 @@
 
         <div class="col-xs-12 col-sm-6 text-center p-5">
             <p class="text-justify description">
-                {!! trans('general.empty.' . $page) !!} {!! trans('general.empty.documentation', ['url' => 'https://akaunting.com/docs/user-manual/' . $docs_path]) !!}
+                {!! trans('general.empty.' . $page) !!}
             </p>
 
             <a href="{{ route($page . '.create') }}" class="btn btn-success float-right mt-4">

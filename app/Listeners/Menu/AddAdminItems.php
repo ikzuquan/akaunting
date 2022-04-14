@@ -146,9 +146,9 @@ class AddAdminItems
         }
 
         // Apps
-        $title = trim(trans_choice('general.modules', 2));
-        if ($this->canAccessMenuItem($title, 'read-modules-home')) {
-            $menu->route('apps.home.index', $title, [], 80, ['icon' => 'fa fa-rocket']);
-        }
+        // $title = trim(trans_choice('general.modules', 2));
+        // if ($this->canAccessMenuItem($title, 'read-modules-home')) {
+        //     $menu->route('apps.home.index', $title, [], 80, ['icon' => 'fa fa-rocket']);
+        // }
     }
 }

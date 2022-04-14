@@ -11,11 +11,7 @@
 
                     <div class="col-xs-12 col-sm-8 col-md-7">
                         <div class="text-right">
-                            @stack('header_button_start')
-
                             @yield('new_button')
-
-                            @stack('header_button_end')
                         </div>
                     </div>
                 </div>

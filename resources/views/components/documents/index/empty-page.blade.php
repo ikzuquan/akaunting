@@ -7,7 +7,7 @@
 
         <div class="col-xs-12 col-sm-6 text-center p-5">
             <p class="text-justify description">
-                {!! trans($textEmptyPage) !!} {!! trans('general.empty.documentation', ['url' => $urlDocsPath]) !!}
+                {!! trans($textEmptyPage) !!}
             </p>
 
             @if ($checkPermissionCreate)
